@@ -1,0 +1,14 @@
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\Catalog.API.deps.json
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\Catalog.API.runtimeconfig.json
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\appsettings.Development.json
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\appsettings.json
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\Catalog.API.exe
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\Catalog.API.dll
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\Swashbuckle.AspNetCore.Swagger.dll
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\Microsoft.OpenApi.dll
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\bin\Debug\Catalog.API.pdb
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services\obj\Debug\docker-compose.dcproj.CopyComplete
