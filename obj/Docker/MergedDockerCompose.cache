@@ -1,16 +1,15 @@
 services:
-  catalog.api:
+  catalog-api:
     build:
-      context: D:\learning\CSharpLearning Courses\Microservices .net\Session1\Session1\Project\eshop-services
-      dockerfile: src/Services/Catalog/Catalog.API/Dockerfile
+      context: D:\learning\CSharpLearning Courses\Microservices .net\Project\eshop-services
+      dockerfile: Services/Catalog/Catalog.API/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
-    image: catalogapi
+      PATH_BASE: /catalog-api
+    image: eshop/catalog.api-linux-latest
     ports:
-    - target: 80
-    - target: 443
-    volumes:
-    - C:\Users\BehrangLabtop\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-    - C:\Users\BehrangLabtop\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - published: 5101
+      target: 80
+    - published: 9101
+      target: 81
 version: '3.4'
