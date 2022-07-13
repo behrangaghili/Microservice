@@ -1,2 +1,3 @@
 ﻿global using eShop.Services.Catalog.CatalogAPI;
 global using Microsoft.OpenApi.Models;
+global using Microsoft.AspNetCore.Mvc;

@@ -1,10 +1,27 @@
 version: '3.4'
 
 services:
-  catalog-api:
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-      - PATH_BASE=/catalog-api
-    ports:
+    sqldata:
+     environment:
+         - SA_PASSWORD=Pass@word
+         - ACCEPT_EULA=Y
+     ports:
+            - "5433:1433"
+     volumes:
+            - eshop-sqldata:/var/opt/mssql
+
+    catalog-api:
+     env_file:
+     - catalog.env 
+
+    #environment:
+    #  - ASPNETCORE_ENVIRONMENT=Development
+    #  - PATH_BASE=${PATH_BASE}
+     ports:
       - "5101:80"
       - "9101:81"
+
+
+volumes:
+  eshop-sqldata:
+   external: false

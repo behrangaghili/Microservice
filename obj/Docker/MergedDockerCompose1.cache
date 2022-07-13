@@ -3,6 +3,9 @@ services:
     build:
       context: D:\learning\CSharpLearning Courses\Microservices .net\Project\eshop-services
       dockerfile: Services/Catalog/Catalog.API/dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
     environment:
       PATH_BASE: /catalog-apitest
       REGISTRY: eshopservice
@@ -12,4 +15,6 @@ services:
       target: 80
     - published: 9101
       target: 81
+  sqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest
 version: '3.4'

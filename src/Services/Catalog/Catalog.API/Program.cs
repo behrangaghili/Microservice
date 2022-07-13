@@ -33,3 +33,9 @@ IHost CreateHostBuilder(IConfiguration configuration, string[] args) =>
         })
 
         .Build();
+public partial class Program
+{
+
+    public static string? Namespace = typeof(Startup).Namespace;
+    public static string? AppName = "Catalog.API";
+}
